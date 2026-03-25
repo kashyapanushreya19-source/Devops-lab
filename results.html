@@ -1,0 +1,15 @@
+<DOCTYPE html>
+    <html>
+        <body>
+            <h2>Search Result</h2>
+            {% for gene in results %} <!-- =curly bracket ,%,for is calling for loop -->
+            
+            <h3>{{ gene.name}}</h3>
+            <p>{{gene.description}}</p>
+            <p>organism:{{gene.organism}}</p>
+
+            <hr>
+            {% end for %}
+        </body>
+    </html>
+</DOCTYPE>
