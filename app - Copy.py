@@ -5,4 +5,4 @@ def home():#what the application is supposed to do
     return render_template("html_structure.html")
 
 if __name__=="__main__":
-    app.run(debug=True) #if this variable actually contaicn main function msde changes
+    app.run(debug=True) #if this variable actually contaicn main function msde changes 
