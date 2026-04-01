@@ -24,4 +24,7 @@ jobs:
       - name: Step3
         run: echo "This is my Step3"
 
+      - name: PipelineBreak
+        run: echo "PipelineBreak"
+
       
